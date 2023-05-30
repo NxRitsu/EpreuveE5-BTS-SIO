@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:GestionnairePassword.Views"
+             x:Class="GestionnairePassword.Views.Générateur"
+             Title="Générateur">
+
+    <VerticalStackLayout Spacing="25"
+                         Padding="20">
+        
+        <Label x:Name="Info"
+               Text="Les mots de passe posséderont automatiquement des minuscules." 
+               HorizontalOptions="Center" />
+
+        <Border Margin="0" BackgroundColor="LightGray">
+            <Entry x:Name="Password"
+                   HorizontalOptions="Center"
+                   Placeholder=""
+                   PlaceholderColor="Black"
+                   IsReadOnly="True" />
+        </Border>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Label Text="Majuscules (ABCDEF...)"
+                   HorizontalOptions="Center" />
+            
+            <CheckBox HorizontalOptions="Center" 
+                      x:Name="MajusculesCheckbox"/>
+
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Label Text="Caractère spéciaux (*$€=@+#...)"
+                   HorizontalOptions="Center" />
+
+            <CheckBox HorizontalOptions="Center"
+                      x:Name="CaractèresCheckbox"/>
+
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Label Text="Chiffres (0123456789)"
+                   HorizontalOptions="Center" />
+
+            <CheckBox HorizontalOptions="Center"
+                      x:Name="ChiffresCheckbox"/>
+
+        </HorizontalStackLayout>
+
+        <Label x:Name="TextLength"
+               Text="Longueur du mot de passe : 5" 
+               HorizontalOptions="Center" />
+
+        <Stepper x:Name="PwdLength"
+                 Maximum="30"
+                 Minimum="5"
+                 Increment="1"
+                 Value="5"
+                 HorizontalOptions="Center"
+                 ValueChanged="PwdLength_ValueChanging" />
+
+        <Button Text="Générer un mot de passe" 
+                Clicked="GenPwd_Clicked"
+                WidthRequest="200"
+                CornerRadius="20"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
