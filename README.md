@@ -12,14 +12,6 @@ Ce dépôt GitHub contient les projets réalisés dans le cadre de l'épreuve E5
    - Description : [Bref résumé du projet 2]
    - Technologies utilisées : [Liste des technologies, langages de programmation, etc.]
 
-## Structure du dépôt
-
-- **/Projet1**
-  - [Fichiers du Projet 1]
-
-- **/Projet2**
-  - [Fichiers du Projet 2]
-
 ## Auteur
 
 [Melvin]
