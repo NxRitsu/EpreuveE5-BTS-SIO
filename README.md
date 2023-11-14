@@ -18,7 +18,8 @@ Ce dépôt GitHub contient les projets réalisés dans le cadre de l'épreuve E5
 2. **Projet 2: LockBox**
    - **Description** : LockBox est une application mobile conçue comme un gestionnaire de mots de passe. Elle offre la possibilité d'enregistrer et d'organiser nos mots de passe en fonction des sites auxquels ils sont associés. En outre, l'application permet de générer des mots de passe aléatoires avec des paramètres personnalisables tels que la longueur et les types de caractères (chiffres, caractères spéciaux, majuscules, minuscules). Cette fonctionnalité renforce la sécurité en proposant des mots de passe robustes et uniques. 😃
    - **Technologies utilisées** : <br />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="bootstrap" width="40" height="40"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="dot-net-core" width="40" height="40"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
 
 ## Auteur
 
