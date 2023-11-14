@@ -11,6 +11,7 @@ Ce dépôt GitHub contient les projets réalisés dans le cadre de l'épreuve E5
      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/database/database-plain.svg" alt="mysql" width="40" height="40"/>
 
 2. **Projet 2: [Nom du Projet 2]**
