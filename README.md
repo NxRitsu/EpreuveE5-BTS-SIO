@@ -22,6 +22,6 @@ Ce dépôt GitHub contient les projets réalisés dans le cadre de l'épreuve E5
 
 ## Auteur
 
-[Melvin] 🧑‍💻
+Melvin 🧑‍💻
 
 N'hésitez pas à explorer les différents projets et à fournir des commentaires. Merci pour votre intérêt ! 🙌
